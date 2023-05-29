@@ -1,0 +1,92 @@
+{
+  "timeStamp": "2022-06-01T16:44:34Z",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [120.33, 30.22],
+        "type": "Point"
+      },
+      "id": "MAPPOINT.0",
+      "geometry_name": "Pnt",
+      "type": "Feature",
+      "properties": {
+        "mapPointName": "laohuyou",
+        "modifyTime": "2022-06-02",
+        "createTime": "2022-06-02",
+        "comment": "旅游",
+        "id": "0",
+        "uid":1,
+        "mpLayer": "0",
+        "encodeStr": "c137bea4ddea45258670b84edeb1605c"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": ["120.01271593384446", "30.620422437787056"],
+        "type": "Point"
+      },
+      "id": "MAPPOINT.2",
+      "geometry_name": "Pnt",
+      "type": "Feature",
+      "properties": {
+        "lxtime": "2023-03-06 00:0:0",
+        "xy": "120.01271593384446,30.620422437787056",
+        "mapPointName": "123",
+        "comment": "00000",
+        "modifyTime": "2023-03-20 13:20:38",
+        "createTime": "2023-03-10 11:29:58",
+        "id": 2,
+        "uid": 1,
+        "mpLayer": "0"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": ["119.7834268352017", "29.92258708924055"],
+        "type": "Point"
+      },
+      "id": "MAPPOINT.3",
+      "geometry_name": "Pnt",
+      "type": "Feature",
+      "properties": {
+        "lxtime": "",
+        "xy": "119.7834268352017,29.92258708924055",
+        "mapPointName": "hj",
+        "comment": "",
+        "modifyTime": "2023-03-10 11:31:05",
+        "createTime": "2023-03-10 11:31:05",
+        "id": 3,
+        "uid": 1,
+        "mpLayer": "0"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": ["119.90264880470933", "30.067138709127903"],
+        "type": "Point"
+      },
+      "id": "MAPPOINT.4",
+      "geometry_name": "Pnt",
+      "type": "Feature",
+      "properties": {
+        "lxtime": "2023-03-12 00:0:0",
+        "xy": "119.90264880470933,30.067138709127903",
+        "mapPointName": "cds",
+        "comment": "cs",
+        "modifyTime": "2023-03-18 16:39:16",
+        "createTime": "2023-03-18 16:39:16",
+        "id": 4,
+        "uid": 1,
+        "mpLayer": "0"
+      }
+    }
+  ],
+  "totalFeatures": 4,
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:EPSG:4326" }
+  },
+  "numberReturned": "1",
+  "type": "FeatureCollection",
+  "numberMatched": "1"
+}
