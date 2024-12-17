@@ -1,1 +1,6 @@
-[{"userId":1,"userName":"admin","pwd":"123456"},{"userId":2,"userName":"test","pwd":"test"},{"userId":3,"userName":"test","pwd":"test"},{"userId":4,"userName":"test","pwd":"test"}]
+[
+  { "userId": 1, "userName": "admin", "pwd": "123456" },
+  { "userId": 2, "userName": "test", "pwd": "test" },
+  { "userId": 3, "userName": "test", "pwd": "test" },
+  { "userId": 4, "userName": "test", "pwd": "test" }
+]

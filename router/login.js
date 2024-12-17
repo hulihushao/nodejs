@@ -4,7 +4,11 @@ const router = express.Router();
 
 router.post("/login", (req, res) => {
   console.log(req.body);
-  let { userName, pwd } = req.body;
+  let body={}
+  for (const key in req.body) {
+    body=JSON.parse(key)
+  }
+  let { userName, pwd } = body;
   let userData = require("../data/user.json");
   let one = userData.filter((item) => item.userName == userName);
   if (one.length) {
@@ -20,7 +24,7 @@ router.post("/login", (req, res) => {
       });
     }
   } else {
-    res.status(404).send({
+    res.status(500).send({
       code:404,
       message:"用户不存在"
     })
